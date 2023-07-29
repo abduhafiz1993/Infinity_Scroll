@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+.image-container {
+  margin: 5px 0;
+  width: 100%;
+}
+img{
+  margin: 10px 30%;
+}
+
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
